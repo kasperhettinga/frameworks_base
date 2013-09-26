@@ -78,4 +78,5 @@
     <!-- Used by selector -->
     <color name="card_pressed">#7e3c3c3c</color>
 
+    <color name="status_bar_traffic_color">#ffffffff</color>
 </resources>
