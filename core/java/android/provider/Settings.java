@@ -3827,6 +3827,13 @@ public final class Settings {
         public static final String CALL_UI_AS_HEADS_UP = "call_ui_as_heads_up";
 
         /**
+         * Network activity arrows
+         *
+         * @hide
+         */
+        public static final String NETWORK_ACTIVITY_ARROWS = "network_activity_arrows";
+
+        /**
          * Whether flip action during incomming call should mute or dismiss
          * the call (mute = 0, dismiss = 1, nothing = 2 (default))
          *
