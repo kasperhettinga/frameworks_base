@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013,2014 ParanoidAndroid Project
+<!-- Copyright (C) 2014 ParanoidAndroid Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,15 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Notification peek dimens -->
-    <dimen name="item_padding">5dp</dimen>
-    <dimen name="small_notification_icon_size">30dp</dimen>
-    <dimen name="small_notification_icon_padding">2dp</dimen>
-    <dimen name="notification_icon_size">46dp</dimen>
-    <dimen name="notification_text_width">300dp</dimen>
-    <dimen name="clock_padding">10dp</dimen>
-    <dimen name="clock_size">15dp</dimen>
-    <!-- Hover dimens -->
-    <dimen name="hover_height">64dp</dimen>
-    <dimen name="hover_cling_width">-1px</dimen>
+    <array name="hover_blacklisted_packages">
+        <item>com.google.android.googlequicksearchbox</item>
+    </array>
 </resources>
